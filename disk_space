@@ -1,0 +1,7 @@
+#!/bin/bash
+
+threshold=10
+
+df -h | grep "10%"
+
+#if disk space is gt threshold then x else y
